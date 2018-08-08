@@ -1,0 +1,54 @@
+.order {
+  background: #909090;
+  height: 100vh;
+  width: 100%;
+  color: #fcf614;
+}
+
+.form-order {
+  text-align: center;
+
+  input[type=radio] {
+    display: none;
+  }
+
+  select,
+  input[type=date],
+  input[type=time],
+  input[type=submit],
+  input[type=reset]{
+    font-size: 2rem;
+    background: #a30311;
+    color: #fcf614;
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 200px;
+  }
+
+  input[type=submit] {
+    cursor: pointer;
+    transition: all .5s;
+  }
+
+  span {
+    padding: 5px;
+    margin-right: 7px;
+    font-size: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  span:focus,
+  span:hover,
+  input[type=submit]:hover {
+    background: #a30311;
+    color: #550000;
+    cursor: pointer;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+}

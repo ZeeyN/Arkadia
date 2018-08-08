@@ -1,0 +1,38 @@
+.footer {
+  position: relative;
+  width: 100%;
+  height: 8rem;
+  line-height: 8rem;
+  background: rgb(163, 3, 17);
+  font-size: 1.5rem;
+  bottom: 0;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.networks {
+  display: flex;
+  width: 10%;
+  font-size: 2rem;
+  justify-content: space-between;
+
+  i {
+    padding: 5px;
+    background: #7c2605;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all .5s;
+  }
+
+   a:nth-child(1) i {
+    padding: 5px 10px;
+  }
+
+  i:hover {
+    background: red;
+    color: black;
+  }
+}

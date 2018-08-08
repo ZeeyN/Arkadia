@@ -1,0 +1,17 @@
+@import "_fontawesome-all.min.scss";
+
+@font-face {
+  font-family: 'lato';
+  src: url('../fonts/lato-bold.eot');
+  src: local('☺'), url('../fonts/lato-bold.woff') format('woff'), url('../fonts/lato-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../fonts/lato-regular.eot');
+  src: local('☺'), url('../fonts/lato-regular.woff') format('woff'), url('../fonts/lato-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

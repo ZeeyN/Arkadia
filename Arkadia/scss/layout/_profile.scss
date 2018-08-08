@@ -1,0 +1,36 @@
+.profile-btn-page {
+  //display: none;
+}
+
+.profile-page {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 100px;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  font-size: 3rem;
+  background: #909090;
+  color: #fcf614;
+  a {
+    color: #fcf614;
+    transition: all .5s;
+  }
+
+  a:hover {
+    color: #906090;
+  }
+}
+
+.list-order {
+  position: relative;
+  top: 70px;
+  text-align: center;
+
+  ul {
+    text-align: left;
+    margin-top: 50px;
+    font-size: 2rem;
+  }
+}

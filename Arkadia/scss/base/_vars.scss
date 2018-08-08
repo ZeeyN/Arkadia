@@ -1,0 +1,25 @@
+//colors
+$text-color-grey: #b8b9b9;
+$text-color-dark: #2d3950;
+$text-color-white: #fff;
+$btn-color-blue: #15a4fa;
+$bg: #f6f9f9;
+
+//fonts
+$lato-fallback: 'lato', Arial, Helvetica, sans-serif;
+
+//responsive
+$xs-bottom: 575px;
+$xs-top: $xs-bottom+1px;
+
+$sm-bottom: 767px;
+$sm-top: $sm-bottom+1px;
+
+$md-bottom: 991px;
+$md-top: $md-bottom+1px;
+
+$lg-bottom: 1199px;
+$lg-top: $lg-bottom+1px;
+
+$xl-bottom: 1499px;
+$xl-top: $xl-bottom+1px;
